@@ -323,14 +323,11 @@ section ul {
   display: none; /* Initially hide the menu toggle */
 }
 
-/* Your existing navigation styles */
-
-.menu-toggle {
-  display: none; /* Initially hide the menu toggle */
-}
-
-.hide-on-small {
-  display: none; /* Initially hide the navigation links for smaller screens */
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 /* Media query for smaller screens */
@@ -342,9 +339,5 @@ section ul {
   .menu-toggle {
     display: block; /* Display the menu toggle for smaller screens */
     cursor: pointer;
-  }
-
-  .hide-on-small {
-    display: flex; /* Show the navigation links for larger screens */
   }
 }
