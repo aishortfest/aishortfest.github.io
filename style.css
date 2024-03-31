@@ -340,4 +340,8 @@ section ul {
     display: block; /* Display the menu toggle for smaller screens */
     cursor: pointer;
   }
+
+  .navigation ul {
+    display: none;
+  }
 }
