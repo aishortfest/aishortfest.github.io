@@ -55,37 +55,9 @@ layout: default
     </div>
   </section>
 {% endif %}
-<section>
-  {% if site.data.faq %}
-    <h1 id="faq">F.A.Q.</h1>
-    <div class="items-container">
-      {% for item in site.data.faq %}
-        <div class="item-large">
-          <h2 {% if item.id %} id="{{ item.id }}" {% endif %}>{{ item.q }}</h2>
-          <p>{{ item.a | markdownify }}</p>
-        </div>
-      {% endfor %}
-      <div class="item-large">
-        <h2>I have another question...</h2>
-        <p>Contact us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
-                            rel="noreferrer">Facebook</a>,
-          {% if site.data.info.twitter %}
-            on <a href="https://twitter.com/{{ site.data.info.twitter }}"
-                  rel="noreferrer">Twitter</a>,
-          {% endif %}
-          <br>
-          or by email ({{ site.data.info.email }})!</p>
-    </div>
-  {% endif %}
-</section>
+
 {% if site.data.sponsors %}
   <section class="section-sponsors">
-    {% if site.data.sponsors.show_prospectus %}
-      <div>
-        <p>Interested in sponsoring us? Check out our <a href="/pdf/sponsor-prospectus.pdf">sponsorship prospectus</a>.</p>
-      </div>
-    {% endif %}
-
     {% for tier in site.data.sponsors.tiers %}
       {% if tier[1].show_title %}
         <h1>{{ tier[0] }}</h1>
