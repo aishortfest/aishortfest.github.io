@@ -275,6 +275,11 @@ section ul {
 }
 
 .navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index as needed */
   background-color: #333; /* Same background color as tone-dark */
   color: #fff; /* Same text color as tone-dark */
   font-family: Montserrat, sans-serif; /* Same font family as headers */

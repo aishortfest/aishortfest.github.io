@@ -44,7 +44,7 @@ layout: default
   {% endif %}
 
 </section>
-<section class="tone-dark">
+<section class="tone-dark" id="about">
   <p class="description">
     <b>Building on a successful first edition with over 1000 participants at Paris Convention Center,</b> the AI ShortFest will return to spark up more discussions on AI's transformative impact in filmmaking. This year again has been marked by a surge in research breakthroughs like SORA and in numerous filmmaking support tools, including those from our previous sponsor, Pika. 
   </p>
@@ -106,7 +106,7 @@ layout: default
 {% endif %}
 
 {% if site.data.sponsors %}
-  <section class="section-sponsors">
+  <section class="section-sponsors" id="sponsors">
     {% for tier in site.data.sponsors.tiers %}
       {% if tier[1].show_title %}
         <h1>{{ tier[0] }}</h1>
@@ -142,7 +142,7 @@ layout: default
     {% endfor %}
   </section>
 {% endif %}
-<section class="tone-dark">
+<section class="tone-dark" id="committee">
   <h1>Committee</h1>
   <div class="items-container">
     {% for person in site.data.organizers.people %}
@@ -177,7 +177,7 @@ layout: default
   {% endif %} -->
 </section>
 
-<section class="rules">
+<section class="rules" id="rules">
   <h1>Rules</h1>
     <h2>Criteria</h2>
       <ul>
