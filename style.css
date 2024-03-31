@@ -74,7 +74,7 @@ section > * {
 
 h1 {
   font-size: 3em;
-  padding-top: -10px;
+  margin-top: 10px;
 }
 
 h2 {
@@ -286,7 +286,7 @@ section ul {
   background-color: #333; /* Same background color as tone-dark */
   color: #fff; /* Same text color as tone-dark */
   font-family: Montserrat, sans-serif; /* Same font family as headers */
-  box-shadow: 0px -7px 10px -7px rgba(0, 0, 0, 0.3); /* Shadow at the bottom */
+  box-shadow: 0px -10px 15px -10px rgba(0, 0, 0, 0.5); /* Shadow at the bottom */
 }
 
 .navigation .container {
