@@ -36,12 +36,6 @@ layout: default
   <div>
     {{ site.data.info.description_long | markdownify }}
 
-    {% if site.data.workshops %}
-      <p>
-        We also organize <a href="/workshops">{{ site.data.workshops.name }}</a>.
-      </p>
-    {% endif %}
-
     {% if site.data.info.past_editions %}
       <p>
         Check out the past editions:
@@ -51,9 +45,6 @@ layout: default
       </p>
     {% endif %}
 
-    <p>
-      Please keep in mind our <a href="/pdf/rules.pdf">rules</a>.
-    </p>
   </div>
 </section>
 {% if site.data.schedule %}
@@ -181,19 +172,52 @@ layout: default
       {% endif %}
     </p>
   {% endif %}
-  <section class="tone-dark">
-    <h1>Program</h1>
-    Discuss recent advances in creative visual content editing, generation and understanding, including:
-    {{ site.data.workshops.description | markdownify }}
+</section>
+<section class="tone-dark">
+  <h1>Program</h1>
+  Discuss recent advances in creative visual content editing, generation and understanding, including:
+  {{ site.data.workshops.description | markdownify }}
+
+  <ul>
+    <li>How to design intuitive video editing and creation tools?</li>
+    <li>How do humans and AI collaborate together to inspire creativity?</li>
+    <li>How can AI help to reduce the human cost of video productions?</li>
+    <li>How to deal with the biases and threats by using AI?</li>
+  </ul>
   
-    <ul>
-      <li>How to design intuitive video editing and creation tools?</li>
-      <li>How do humans and AI collaborate together to inspire creativity?</li>
-      <li>How can AI help to reduce the human cost of video productions?</li>
-      <li>How to deal with the biases and threats by using AI?</li>
-    </ul>
-    
-  </section>
+</section>
+<section>
+  <h1>Rules</h1>
+    <h2>Criteria</h2>
+      <ul>
+        <li>Film quality: Storytelling impact and overall production quality</li>
+        <li>Use of AI techniques: Creative integration of AI and effective utilization</li>
+      </ul>
+    <h2>Films</h2>
+      <ul>
+        <li>Films must have a maximum duration of 10 minutes.</li>
+        <li>Films that contain languages other than English must include English subtitles.</li>
+      </ul>
+    <h2>Copyright</h2>
+      <ul>
+        <li>By submitting your film, you affirm that you hold the rights to the content and grant permission for screening and promotional purposes.</li>
+        <li>AI-generated content used in submissions should respect copyright and intellectual property rights</li>
+        <li>ASF is not liable for any copyright infringements or unauthorized usage, and any conflicts should be resolved by the parties involved.</li>
+        <li>There are no specific premiere status requirements.</li>
+        <li>AI ShortFest (ASF) reserves the right to use portions of your film, including trailers, stills, and posters, for promotional purposes on social media, the official website, press, and other relevant platforms.        </li>
+      </ul>
+    <h2>Fees</h2>
+      <ul>
+        <li>All fees are non-transferable and non-refundable.</li>
+        <li>We do not offer fee waivers.</li>
+      </ul>
+    <h2>Judgement</h2>
+      <ul>
+        <li>ASF reserves the right to disqualify any film that is deemed inappropriate by the festival. If you have any questions or concerns regarding this decision, please feel free to contact us.</li>
+        <li>Not all submissions will be selected for the official competition. The judges have the autonomy to make their own choices, and no feedback or explanations will be provided for films that are not selected.</li>
+      </ul>
+
+  
 </section>
 <section>
   <h1>Newsletter</h1>
