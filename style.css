@@ -318,3 +318,19 @@ section ul {
 .navigation ul li a:hover {
   color: #ccc; /* Adjust hover color as needed */
 }
+
+.menu-toggle {
+  display: none; /* Initially hide the menu toggle */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none; /* Initially hide the menu for smaller screens */
+  }
+
+  .menu-toggle {
+    display: block; /* Display the menu toggle for smaller screens */
+    cursor: pointer;
+  }
+}
