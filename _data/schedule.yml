@@ -2,26 +2,26 @@
 # Don't forget quotes around hours, otherwise the colons will mess stuff up.
 # Use an empty string ('') for the day names if you do not want headers.
 
-Saturday:
-  '8:30-9:00': Warm-up Session
-  '9:00-09:20': Open Remarks and Organizers' Spotlight 
-  '9:20-09:45': Academia Keynote I
-  '09:45-10:10': Academia Keynote II
-  '10:10-10:35': Academia Keynote III
-  '10:35-11:00': Artistic Keynote I
-  '11:00-11:40': Roundtable Discussion
-  '11:40-13:45': Poster Session & Lunch Break
-  '13:45-14:50': Art Sharing
-  '14:50-15:30': Key breakthrough Talk
-  '15:30-16:00': Academia Keynote III
-  '16:05-16:20': Coffee Break
-  '16:30-19:30': Industry Keynote I
-  '18:30-19:30': Industry Keynote II
-  '18:30-19:30': Artistic Keynote II
-  '18:30-19:30': Closing Remarks
+DAY 1:
+'09:30-16:30': Screening
+'9:00-09:30': Opening Remarks
+'9:30-10:30': Academia Keynote I
+'10:30-11:00': Break
+'11:00-12:00': Industry Keynote I
+'12:00-13:00': Lunch
+'13:00-14:00': Artistic Keynote I
+'14:00-15:00': Roundtable Discussion I
+'15:00-16:30': Poster Session
+'16:30-17:00': Break
+'17:00-18:00': Key Breakthrough Talk
 
-Sunday:
-  '0:00-1:00': Midnight snack
-  '7:00-9:00': Breakfast
-  '11:30-12:30': Lunch
-  '15:00-17:00': Closing ceremony
+DAY 2:
+'09:00-16:00': Screening
+'09:00-10:00': Academia Keynote II
+'10:00-11:00': Industry Keynote II
+'11:00-12:00': Artistic Keynote II
+'12:00-13:00': Lunch
+'13:00-14:00': Roundtable Discussion II
+'14:00-16:00': Live Demos
+'16:00-16:30': Break
+'16:30-18:00': Closing ceremony
