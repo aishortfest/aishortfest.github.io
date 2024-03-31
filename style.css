@@ -283,8 +283,8 @@ section ul {
   left: 0;
   width: 100%;
   z-index: 1000; /* Adjust the z-index as needed */
-/*   background-color: #333; /* Same background color as tone-dark */ */
-  linear-gradient(to bottom, #333, #222);
+  background: linear-gradient(to bottom, #333, #222);
+  opacity: 0.85;
   color: #fff; /* Same text color as tone-dark */
   font-family: Montserrat, sans-serif; /* Same font family as headers */
   box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 0.5), /* Shadow at the top */
