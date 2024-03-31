@@ -133,7 +133,7 @@ tr {
 
 .header img {
   max-width: 45%;
-  margin: 5em auto 0 auto;
+  margin: 6em auto 0 auto;
 }
 
 /* Action link, with trick to put a dark overlay */
@@ -179,12 +179,14 @@ tr {
 .person-image {
   width: 10em;
   height: 10em;
+  border-radius: 10px;
 }
 
 .person-info {
   background-color: rgba(0, 0, 0, 0.2);
   margin-top: -0.3em;
   padding: 0.3em 0;
+  border-radius: 10px;
 }
 
 .person-first {
@@ -258,7 +260,7 @@ section ul {
 }
 
 .description {
-  width: 80% !important;
+  width: 65% !important;
   margin: auto;
   padding-bottom: 15px;
 }
@@ -268,5 +270,5 @@ section ul {
 }
 
 #newsletter {
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
