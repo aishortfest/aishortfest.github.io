@@ -274,6 +274,18 @@ section ul {
   padding-bottom: 30px;
 }
 
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none; /* Hide the navigation links for smaller screens */
+  }
+
+  .menu-toggle {
+    display: block; /* Display the menu toggle for smaller screens */
+    cursor: pointer;
+  }
+}
+
 .navigation {
   position: fixed;
   top: 0;
@@ -321,16 +333,4 @@ section ul {
 
 .menu-toggle {
   display: none; /* Initially hide the menu toggle */
-}
-
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-  .menu {
-    display: none; /* Hide the navigation links for smaller screens */
-  }
-
-  .menu-toggle {
-    display: block; /* Display the menu toggle for smaller screens */
-    cursor: pointer;
-  }
 }
