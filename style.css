@@ -209,3 +209,16 @@ tr {
 .newsletter input[type="submit"]:active {
   background: #ccc;
 }
+
+.collage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the gap between photos */
+}
+
+.collage img {
+  max-width: 200px; /* Adjust the maximum width of each photo */
+  max-height: 200px; /* Adjust the maximum height of each photo */
+}
