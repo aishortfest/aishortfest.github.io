@@ -52,7 +52,11 @@ section > * {
   flex-grow: 1;
   flex-basis: 26%;
   padding: 0 3.65%;
-  height: 100px;
+}
+
+.item-large img {
+  width: auto; /* Adjust the width of the image */
+  height: 250px; /* Maintain the aspect ratio */
 }
 
 .item-small {
