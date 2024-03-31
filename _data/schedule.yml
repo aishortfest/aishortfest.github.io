@@ -3,25 +3,25 @@
 # Use an empty string ('') for the day names if you do not want headers.
 
 DAY 1:
-'09:30-16:30': Screening
-'9:00-09:30': Opening Remarks
-'9:30-10:30': Academia Keynote I
-'10:30-11:00': Break
-'11:00-12:00': Industry Keynote I
-'12:00-13:00': Lunch
-'13:00-14:00': Artistic Keynote I
-'14:00-15:00': Roundtable Discussion I
-'15:00-16:30': Poster Session
-'16:30-17:00': Break
-'17:00-18:00': Key Breakthrough Talk
+  "09:30-16:30": Screening
+  "9:00-09:30": Opening Remarks
+  "9:30-10:30": Academia Keynote I
+  "10:30-11:00": Break
+  "11:00-12:00": Industry Keynote I
+  "12:00-13:00": Lunch
+  "13:00-14:00": Artistic Keynote I
+  "14:00-15:00": Roundtable Discussion I
+  "15:00-16:30": Poster Session
+  "16:30-17:00": Break
+  "17:00-18:00": Key Breakthrough Talk
 
 DAY 2:
-'09:00-16:00': Screening
-'09:00-10:00': Academia Keynote II
-'10:00-11:00': Industry Keynote II
-'11:00-12:00': Artistic Keynote II
-'12:00-13:00': Lunch
-'13:00-14:00': Roundtable Discussion II
-'14:00-16:00': Live Demos
-'16:00-16:30': Break
-'16:30-18:00': Closing ceremony
+  "09:00-16:00": Screening
+  "09:00-10:00": Academia Keynote II
+  "10:00-11:00": Industry Keynote II
+  "11:00-12:00": Artistic Keynote II
+  "12:00-13:00": Lunch
+  "13:00-14:00": Roundtable Discussion II
+  "14:00-16:00": Live Demos
+  "16:00-16:30": Break
+  "16:30-18:00": Closing ceremony

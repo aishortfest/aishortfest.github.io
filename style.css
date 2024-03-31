@@ -228,9 +228,3 @@ section ul {
   list-style-type: none;
   padding-left: 0;
 }
-
-/* Set width of all sections to 80% */
-section {
-  width: 80%;
-  margin: auto; /* Center the sections */
-}
