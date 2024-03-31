@@ -186,21 +186,13 @@ layout: default
     Discuss recent advances in creative visual content editing, generation and understanding, including:
     {{ site.data.workshops.description | markdownify }}
   
-    <div class="items-container">
-      {% for workshop in site.data.workshops.items %}
-        {% capture dateunix %}{{ workshop[1].date | date: '%s' | plus: 0 }}{% endcapture %}
-        {% if dateunix > nowunix %}
-          <div class="item-large">
-            <h2>
-              <i>{{ workshop[0] }}</i>
-            </h2>
-            <p>{{ workshop[1].date | date: '%A %B %-d, %H:%M' }}</p>
-            <p>{{ workshop[1].description | markdownify }}</p>
-            <a href="{{ workshop[1].signup }}">Register</a>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
+    <ul>
+      <li>How to design intuitive video editing and creation tools?</li>
+      <li>How do humans and AI collaborate together to inspire creativity?</li>
+      <li>How can AI help to reduce the human cost of video productions?</li>
+      <li>How to deal with the biases and threats by using AI?</li>
+    </ul>
+    
   </section>
 </section>
 <section>
