@@ -132,7 +132,7 @@ tr {
 }
 
 .header img {
-  max-width: 45%;
+  max-width: calc(40% + 100px);
   margin: 6em auto 0 auto;
 }
 
