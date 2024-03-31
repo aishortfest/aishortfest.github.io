@@ -4,7 +4,7 @@ layout: default
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
@@ -164,7 +164,7 @@ layout: default
   {% endif %} -->
 </section>
 
-<section>
+<section class="rules">
   <h1>Rules</h1>
     <h2>Criteria</h2>
       <ul>
@@ -200,15 +200,10 @@ layout: default
 <section class="tone-dark">
   <h1>Newsletter</h1>
   <div>
-    Subscribe to our newsletter to be informed of future {{ site.data.workshops.name }}!
+    Subscribe to our newsletter to stay informed!
   </div>
   <div class="newsletter">
-    <form action="{{ site.data.workshops.mailchimp_action }}"
-          method="post"
-          id="mc-embedded-subscribe-form"
-          name="mc-embedded-subscribe-form"
-          class="validate"
-          novalidate>
+    <form>
       <div id="mc_embed_signup_scroll">
         <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
