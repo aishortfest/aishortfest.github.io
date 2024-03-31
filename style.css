@@ -105,6 +105,8 @@ tr {
 .tone-dark {
   background: linear-gradient(to bottom, #dd6026, #cb3212);
   color: #fff;
+  box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 0.5), /* Shadow at the top */
+              0px -10px 15px -10px rgba(0, 0, 0, 0.5); /* Shadow at the bottom */
 }
 
 .tone-dark a {
