@@ -126,18 +126,19 @@ tr {
 }
 
 .header p {
-  font-size: calc(0.75em + 2vw);
+  font-size: calc(0.75em + 1vw);
   margin: 4vh 0 0 0;
 }
 
 .header img {
   max-width: 45%;
-  margin: 10em auto 0 auto;
+  margin: 5em auto 0 auto;
 }
 
 
 /* Action link, with trick to put a dark overlay */
 .link-action {
+  font-size: 20px;
   padding: 0.1em 0.3em;
   text-decoration: none;
   position: relative;
