@@ -229,3 +229,15 @@ section ul {
   padding-left: 0;
   width: 80%;
 }
+
+.video {
+  width: 80%;
+  margin: auto;
+  text-align: center; /* Center the video horizontally */
+}
+
+.video iframe {
+  width: 100%; /* Make the video fill the entire width of its container */
+  max-width: 800px; /* Limit the maximum width of the video */
+}
+
