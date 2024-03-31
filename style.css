@@ -74,6 +74,7 @@ section > * {
 
 h1 {
   font-size: 3em;
+  margin-top: 15px;
 }
 
 h2 {
@@ -104,6 +105,8 @@ tr {
 .tone-dark {
   background: linear-gradient(to bottom, #dd6026, #cb3212);
   color: #fff;
+  box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 0.5), /* Shadow at the top */
+              0px -10px 15px -10px rgba(0, 0, 0, 0.5); /* Shadow at the bottom */
 }
 
 .tone-dark a {
@@ -168,6 +171,7 @@ tr {
 }
 
 .person-info {
+  margin-top: 5px;
   opacity: 0.7;
 }
 
@@ -280,9 +284,12 @@ section ul {
   left: 0;
   width: 100%;
   z-index: 1000; /* Adjust the z-index as needed */
-  background-color: #333; /* Same background color as tone-dark */
+  background: linear-gradient(to bottom, #333, #222);
+  opacity: 0.85;
   color: #fff; /* Same text color as tone-dark */
   font-family: Montserrat, sans-serif; /* Same font family as headers */
+  box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 0.5), /* Shadow at the top */
+              0px -10px 15px -10px rgba(0, 0, 0, 0.5); /* Shadow at the bottom */
 }
 
 .navigation .container {
@@ -344,4 +351,14 @@ section ul {
   .navigation ul {
     display: none;
   }
+}
+
+.email {
+  border-radius: 4px;
+  border: none;
+}
+
+.button {
+  border-radius: 4px;
+  border: none;
 }
