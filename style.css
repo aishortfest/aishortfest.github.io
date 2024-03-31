@@ -52,6 +52,7 @@ section > * {
   flex-grow: 1;
   flex-basis: 26%;
   padding: 0 3.65%;
+  height: 100px;
 }
 
 .item-small {
@@ -226,15 +227,15 @@ tr {
 }
 
 /* .collage img {
-  max-width: 200px; /* Adjust the maximum width of each photo */
-  max-height: 200px; /* Adjust the maximum height of each photo */
+  /* max-width: 200px; Adjust the maximum width of each photo */
+  /* max-height: 200px; Adjust the maximum height of each photo */
 /* } 
 
 /* Remove bullet points from list items */
 section ul {
-  list-style-type: none;
+  list-style-type: none !important;
   padding-left: 0;
-  width: 80%;
+  width: 80% !important;
   margin: auto;
 }
 
