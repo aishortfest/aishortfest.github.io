@@ -55,7 +55,7 @@ section > * {
 }
 
 .item-large img {
-  height: 250px; /* Maintain the aspect ratio */
+  height: 250px !important; /* Maintain the aspect ratio */
   width: auto; 
 }
 
