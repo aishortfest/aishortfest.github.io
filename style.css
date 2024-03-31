@@ -284,6 +284,10 @@ section ul {
     display: block; /* Display the menu toggle for smaller screens */
     cursor: pointer;
   }
+
+  .navigation ul {
+    display: none; /* Hide the navigation links for smaller screens */
+  }
 }
 
 .navigation {
