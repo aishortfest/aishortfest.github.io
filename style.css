@@ -1,7 +1,7 @@
 ---
 ---
 /* Font */
-{% assign has_font = false %}
+/* {% assign has_font = false %}
 {% for file in site.static_files %}
   {% if file.path.size > 6 %}
     {% assign path_begin = file.path | slice: 0, 6 %}
@@ -13,18 +13,21 @@
       }
     {% endif %}
   {% endif %}
-{% endfor %}
+{% endfor %} */
+
+
+
 
 /* Basic elements */
 body {
   background: #f0f0f0;
   text-align: center;
-  font-family:
-    {% if has_font %}
-      CustomFont,
-    {% endif %}
-    {{ site.data.info.font }};
+  font-family: 'Source Sans Pro', sans-serif; /* Default font for all text */
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Comfortaa, sans-serif; /* Set Comfortaa font for headers */
 }
 
 section {
