@@ -12,18 +12,26 @@ group:
 # People organizing the event, and their websites.
 # See the ReadMe file for information on pictures.
 people:
-  - first: Alice
-    last: Example
-    link: http://example.org
-  
-  - first: Bob
-    last: Example
+  - first: Jean-Peïc
+    last: Chou
     link: http://example.org
 
-  - first: Carol
-    last: Example
+  - first: Saehui
+    last: Hwang
     link: http://example.org
 
-  - first: Daniel
-    last: Example
+  - first: Anyi
+    last: Rao
+    link: http://example.org
+
+  - first: Maneesh
+    last: Agrawala
+    link: http://example.org
+
+  - first: Yuwei
+    last: Guo
+    link: http://example.org
+
+  - first: Ruihan
+    last: Zhang
     link: http://example.org

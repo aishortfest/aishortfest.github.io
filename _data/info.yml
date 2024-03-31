@@ -10,11 +10,11 @@ location: Building 01, Example University
 # Event description; short is for e.g. Facebook shared links, long appears on the home page.
 description_short: Student-run hackathon at EPFL, Switzerland
 description_long: |-
-  This is an example event for this template!
+  This workshop is for the 4th installment of the AI for Creative Video Editing and Understanding (CVEU), which follows its success on the previous launch at ICCV'23, ECCV'22 and ICCV'21.
 
-  It's there to show off the capabilities of the template.
+The workshop brings together researchers, artists and entrepreneurs working on computer vision, machine learning, computer graphics, human computer interaction, and cognitive research.
 
-  No coding needed, just change the data!
+It aims to bring awareness of recent advances in machine learning technologies to enable assisted creative visual content creation and understanding.
 
 # Contact email. Use a bot-defeating format, otherwise you'll get spammed.
 email: info at example dot org
