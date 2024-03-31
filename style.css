@@ -55,8 +55,9 @@ section > * {
 }
 
 .item-large img {
-  height: 250px !important; /* Maintain the aspect ratio */
+  height: 70px !important; /* Maintain the aspect ratio */
   width: auto; 
+  padding-bottom: 10px;
 }
 
 .item-small {
@@ -127,8 +128,8 @@ tr {
 }
 
 .header img {
-  max-width: 30%;
-  margin: 5em auto 0 auto;
+  max-width: 45%;
+  margin: 10em auto 0 auto;
 }
 
 
