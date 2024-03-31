@@ -9,21 +9,14 @@
 tiers:
   Partners:
     show_title: true
-    size: 30
+    size: 25
     sponsors:
-      Example University: http://example.org
-
-  Gold Sponsors:
-    show_title: true
-    color: rgba(212,175,55,0.12)
-    size: 42
-    sponsors:
-      Gold Example One: http://example.org
-      Gold Example Two: http://example.org
-
-  Silver Sponsors:
-    show_title: true
-    color: rgba(192,192,192,0.18)
-    size: 32
-    sponsors:
-      Silver Example One: http://example.org
+      Stanford: https://www.stanford.edu/
+      MIT: https://www.mit.edu/
+      Brown Institute: https://brown.columbia.edu/
+      CUHK: https://www.cuhk.edu.hk/
+      KAUST: https://www.kaust.edu.sa/
+      Adobe: https://www.adobe.com/
+      Netflix: http://www.netflix.com/
+      Prime Video: https://www.primevideo.com/
+      Pika: http://www.pika.art/
