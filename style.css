@@ -259,3 +259,6 @@ section ul {
   max-width: 800px; /* Limit the maximum width of the video */
 }
 
+.description {
+  width: 80% !important;
+}
