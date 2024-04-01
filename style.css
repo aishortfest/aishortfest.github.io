@@ -43,7 +43,7 @@ section {
   padding: 1.5em 0;
 }
 
-section > * {
+section > * {l
   padding: 0 2vw;
 }
 
@@ -147,6 +147,8 @@ tr {
   position: relative;
   border-radius: 5px;
   padding: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .link-action:after {
@@ -184,11 +186,10 @@ tr {
 }
 
 .person-info {
-  background-color: rgba(0, 0, 0, 0.2);
   margin-top: -0.3em;
   margin-bottom: -0.3em
   border-radius: 10px;
-  opacity: 0;
+  opacity: 0.9;
 }
 
 .person-first {
@@ -196,7 +197,7 @@ tr {
 }
 
 .person-last {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 /* Newsletter */
