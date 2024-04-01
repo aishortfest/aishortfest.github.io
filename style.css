@@ -229,8 +229,8 @@ tr {
   align-items: center;
   flex-wrap: wrap;
   gap: 5px; /* Adjust the gap between photos */
-  padding-left: 0.1vw;
-  padding-right: 0.1vw;
+  padding-left: 5%;
+  padding-right: 5%; 
 }
 
 .collage img {
@@ -270,8 +270,8 @@ section ul {
 }
 
 .schedule {
-  padding-left: 0.1vw;
-  padding-right: 0.1vw; 
+  padding-left: 5%;
+  padding-right: 5%; 
 }
 
 .rules {
