@@ -146,6 +146,7 @@ tr {
   text-decoration: none;
   position: relative;
   border-radius: 5px;
+  padding: 3px;
 }
 
 .link-action:after {
