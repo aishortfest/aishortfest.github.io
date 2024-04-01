@@ -186,10 +186,9 @@ tr {
 }
 
 .person-info {
-  margin-top: -0.3em;
   margin-bottom: -0.3em
   border-radius: 10px;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .person-first {
@@ -197,7 +196,7 @@ tr {
 }
 
 .person-last {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 /* Newsletter */
