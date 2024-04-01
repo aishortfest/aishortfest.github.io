@@ -172,11 +172,6 @@ tr {
   margin: 0 0 2em 0;
 }
 
-.person-info {
-  padding:10px;
-  opacity: 0.7;
-}
-
 .person-link:active .person-info,
 .person-link:hover .person-info {
   opacity: 1;
@@ -191,8 +186,9 @@ tr {
 .person-info {
   background-color: rgba(0, 0, 0, 0.2);
   margin-top: -0.3em;
-  padding: 0.3em 0;
+  margin-bottom: -0.3em
   border-radius: 10px;
+  opacity: 0;
 }
 
 .person-first {
