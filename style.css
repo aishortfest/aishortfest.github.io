@@ -63,7 +63,13 @@ section > * {l
 .item-large img {
   height: 80px !important; /* Maintain the aspect ratio */
   width: auto;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.item-large {
+  flex-grow: 1;
+  flex-basis: 26%;
+  padding: 0 3.65%;
 }
 
 .item-small {
