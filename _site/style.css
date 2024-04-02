@@ -1,0 +1,658 @@
+/* Font */
+/* 
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+ */
+
+/* Basic elements */
+body {
+  background: #f0f0f0;
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif; /* Default font for all text */
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, sans-serif; /* Set Comfortaa font for headers */
+}
+
+section {
+  width: 100%;
+  overflow: hidden;
+}
+
+section {
+  font-size: 1.25em;
+  padding: 1.5em 0;
+}
+
+section > * {l
+  padding: 0 2vw;
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1em 0;
+}
+
+.item-large {
+  flex-grow: 1;
+  flex-basis: 26%;
+  padding: 0 3.65%;
+}
+
+.item-large img {
+  height: 80px !important; /* Maintain the aspect ratio */
+  width: auto;
+  padding-bottom: 20px;
+}
+
+.item-large {
+  flex-grow: 1;
+  flex-basis: 26%;
+  padding: 0 3.65%;
+}
+
+.item-small {
+  flex-grow: 0;
+  flex-basis: 17%;
+  padding: 0 1.5%;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 15px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+tr {
+  height: 3em;
+}
+
+/* Colors */
+.tone-dark {
+  background: linear-gradient(to bottom, #dd6026, #cb3212);
+  color: #fff;
+  box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 0.5), /* Shadow at the top */
+              0px -10px 15px -10px rgba(0, 0, 0, 0.5); /* Shadow at the bottom */
+}
+
+.tone-dark a {
+  color: #ddd;
+}
+
+.tone-dark a:active,
+.tone-dark a:focus,
+.tone-dark a:hover {
+  color: #fff;
+}
+
+/* Header */
+.header {
+  /* Fake a dark overlay with a gradient. Black is black... I want my sanity back... */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/images/background.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.header p {
+  font-size: calc(0.75em + 1vw);
+  margin: 4vh 0 0 0;
+}
+
+.header img {
+  max-width: calc(40% + 100px);
+  margin: 6em auto 0 auto;
+}
+
+/* Action link, with trick to put a dark overlay */
+.link-action {
+  font-size: 20px;
+  padding: 0.1em 0.3em;
+  text-decoration: none;
+  position: relative;
+  border-radius: 5px;
+  padding: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.link-action:after {
+  content: "\A";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.link-action:hover:after {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.link-action:active:after {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* People */
+.person-container {
+  display: inline-block;
+  margin: 0 0 2em 0;
+}
+
+.person-link:active .person-info,
+.person-link:hover .person-info {
+  opacity: 1;
+}
+
+.person-image {
+  width: 10em;
+  height: 10em;
+  border-radius: 10px;
+}
+
+.person-info {
+  margin-bottom: -0.3em
+  border-radius: 10px;
+  opacity: 0.95;
+}
+
+.person-first {
+  font-weight: 600;
+}
+
+.person-last {
+  opacity: 0.9;
+}
+
+/* Newsletter */
+.newsletter {
+  margin-top: 1em;
+}
+
+.newsletter input {
+  background: #fff;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  padding: 0.5rem 0.8rem;
+}
+
+.newsletter input[type="email"] {
+  box-sizing: border-box;
+  width: 18rem;
+}
+.newsletter input[type="submit"]:hover {
+  background: #eee;
+}
+.newsletter input[type="submit"]:active {
+  background: #ccc;
+}
+
+/* Style the photo collage */
+.collage {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px; /* Adjust the gap between photos */
+  padding-left: 5%;
+  padding-right: 5%; 
+}
+
+.collage img {
+  width: 400px; /* Adjust the width of each photo */
+  height: auto; /* Maintain the aspect ratio */
+  margin: 5px;
+}
+
+/* .collage img {
+  /* max-width: 200px; Adjust the maximum width of each photo */
+/* max-height: 200px; Adjust the maximum height of each photo */
+/* } 
+
+/* Remove bullet points from list items */
+section ul {
+  list-style-type: none !important;
+  padding-left: 0;
+  width: 70% !important;
+  margin: auto;
+}
+
+.video {
+  width: 80%;
+  margin: auto;
+  text-align: center; /* Center the video horizontally */
+}
+
+.video iframe {
+  width: 100%; /* Make the video fill the entire width of its container */
+  max-width: 800px; /* Limit the maximum width of the video */
+}
+
+.description {
+  width: 65% !important;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.schedule {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%; 
+}
+
+.rules {
+  padding-bottom: 60px;
+}
+
+#newsletter {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index as needed */
+  background: linear-gradient(to bottom, #333, #222);
+  opacity: 0.85;
+  color: #fff; /* Same text color as tone-dark */
+  font-family: Montserrat, sans-serif; /* Same font family as headers */
+  box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 0.5), /* Shadow at the top */
+              0px -10px 15px -10px rgba(0, 0, 0, 0.5); /* Shadow at the bottom */
+}
+
+.navigation .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation ul li {
+  margin-right: 20px;
+}
+
+.navigation ul li:last-child {
+  margin-right: 0;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #fff; /* Same text color as tone-dark */
+  transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+  color: #ccc; /* Adjust hover color as needed */
+}
+
+.menu-toggle {
+  display: none; /* Initially hide the menu toggle */
+}
+
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none; /* Hide the navigation links for smaller screens */
+  }
+
+  .menu-toggle {
+    display: block; /* Display the menu toggle for smaller screens */
+    cursor: pointer;
+  }
+
+  .navigation ul {
+    display: none;
+  }
+}
+
+.email {
+  border-radius: 4px;
+  border: none;
+}
+
+.button {
+  border-radius: 4px;
+  border: none;
+}

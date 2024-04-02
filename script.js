@@ -10,3 +10,22 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  var menuItems = document.querySelectorAll('.menu a[href^="#"]');
+
+  menuItems.forEach(function (menuItem) {
+    menuItem.addEventListener("click", function (event) {
+      event.preventDefault();
+      var targetId = this.getAttribute("href").substring(1);
+      var targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        var targetOffset = targetElement.offsetTop;
+        window.scrollTo({
+          top: targetOffset,
+          behavior: "smooth",
+        });
+      }
+    });
+  });
+});
