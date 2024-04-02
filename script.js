@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
   var menuItems = document.querySelectorAll('.menu a[href^="#"]');
+  var arrowLink = document.getElementById("arrow");
 
   menuItems.forEach(function (menuItem) {
     menuItem.addEventListener("click", function (event) {
@@ -27,5 +28,18 @@ document.addEventListener("DOMContentLoaded", function () {
         });
       }
     });
+  });
+
+  arrowLink.addEventListener("click", function (event) {
+    event.preventDefault();
+    var targetId = this.parentElement.getAttribute("href").substring(1);
+    var targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      var targetOffset = targetElement.offsetTop;
+      window.scrollTo({
+        top: targetOffset,
+        behavior: "smooth",
+      });
+    }
   });
 });

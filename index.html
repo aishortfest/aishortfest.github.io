@@ -34,9 +34,9 @@ layout: default
     {{ site.data.info.location }}
   </p>
   {% if site.data.action.text %}
-    <p>
+    <p id="entry-button">
       {% if site.data.action.link %}
-        <a class="tone-dark link-action"
+        <a class="tone-dark link-action" 
            href="{{ site.data.action.link }}"
            rel="noreferrer">{{ site.data.action.text | markdownify | remove: '<p>' | remove: '</p>' }}</a>
       {% else %}
@@ -45,11 +45,8 @@ layout: default
     </p>
   {% endif %}
   
-<a href="#about"
-  <img src="images/arrow.png"
-        style="height:40px">
-</a>
-  
+<a href="#about"><img src="images/arrow.png" id="arrow"></a>
+
 </section>
 <section class="tone-dark" id="about">
   <h1>About</h1>

@@ -418,12 +418,21 @@ tr {
 
 .header p {
   font-size: calc(0.75em + 1vw);
-  margin: 4vh 0 0 0;
+  margin: 0 0 0 0; 
 }
 
-.header img {
+.header .logo {
   max-width: calc(40% + 100px);
   margin: 6em auto 0 auto;
+}
+
+#arrow{
+  margin: 20px 0 0 0;
+  height: 34px;
+}
+
+#entry-button {
+  margin-top: 20px;
 }
 
 /* Action link, with trick to put a dark overlay */
