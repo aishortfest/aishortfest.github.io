@@ -136,7 +136,7 @@ tr {
 }
 
 .header p {
-  font-size: calc(0.75em + 1vw);
+  font-size: calc(6);
   margin: 0 0 0 0; 
 }
 
@@ -146,8 +146,8 @@ tr {
 }
 
 #arrow{
-  margin: 20px 0 0 0;
   height: 34px;
+  margin: 100px 0 20px 0;
 }
 
 #entry-button {
